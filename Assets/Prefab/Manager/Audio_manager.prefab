@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6193800609053564917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6193800609053564919}
+  - component: {fileID: 6193800609053564918}
+  - component: {fileID: 8310976758369067170}
+  m_Layer: 0
+  m_Name: Audio_manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6193800609053564919
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6193800609053564917}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6193800609053564918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6193800609053564917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08ae8333cbc281f49b43b2791298f40a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ambientClip: {fileID: 8300000, guid: 18a1b4c5c037efa47b4ca1426e6b4859, type: 3}
+  musicClip: {fileID: 8300000, guid: fb874a38a76dd5e4e92e9f4e011a4c74, type: 3}
+  playerDiedMusicClip: {fileID: 8300000, guid: c2fb7ec423381c347825e37b1ff1539d, type: 3}
+  wolfMusicClip: {fileID: 8300000, guid: ba51c7507209b9e42ace406bf77562b9, type: 3}
+  bossLevelClip: {fileID: 8300000, guid: 2a60f0681fdaeae4390c539bce4390a2, type: 3}
+  explosionClip: {fileID: 8300000, guid: f461f3394fa7d35449f892fcef4cb748, type: 3}
+  walkStepClip:
+  - {fileID: 8300000, guid: 32e0ff73f808a454383c7616f637f898, type: 3}
+  - {fileID: 8300000, guid: 19707fa30cf595848a6493de8361c59b, type: 3}
+  - {fileID: 8300000, guid: 63ab1ea253937ca42b6953f973a15e1b, type: 3}
+  - {fileID: 8300000, guid: 6a6e7f0f9d817d746a58423e5e2e19db, type: 3}
+  runStepClip:
+  - {fileID: 8300000, guid: bad55f8fcff09a344be286ce2472c904, type: 3}
+  - {fileID: 8300000, guid: 71ec5028a3a3eae4d816bde1830a5995, type: 3}
+  - {fileID: 8300000, guid: 11de4c61b64d97444b1f5541a8d97109, type: 3}
+  - {fileID: 8300000, guid: db0c11a3990eb7b4e836e0c6dd0b56ec, type: 3}
+  attackClip:
+  - {fileID: 8300000, guid: 67bf2370926c25b4abdc618afc4a73de, type: 3}
+  - {fileID: 8300000, guid: cf8f4512b178d7c4791a2cdd461dbb0e, type: 3}
+  - {fileID: 8300000, guid: 52fc11938034b1746a27749830bad139, type: 3}
+  fireBallClip:
+  - {fileID: 8300000, guid: 1c5314d9c5a59ce449e2ed63cdc870d1, type: 3}
+  - {fileID: 8300000, guid: 9fbbebb078536ea46bde09272cd28fa6, type: 3}
+  - {fileID: 8300000, guid: 3803f4ac99f6ce041af2d6ac0dd7f293, type: 3}
+  - {fileID: 8300000, guid: 85b08f0677aa06b4ca66d5fde020e13a, type: 3}
+  getHitClip: {fileID: 8300000, guid: b85808d960946024b9078fc378ce09b6, type: 3}
+  rotatingWeaponClip: {fileID: 8300000, guid: a2f5e94134d938a478c04be70356d70b, type: 3}
+  enemyAttackClip: {fileID: 8300000, guid: 478bf189383023c40a87d2c356e47416, type: 3}
+  enemyGetHitClip: {fileID: 8300000, guid: 5de107d3bd49794479780c4dfb96d1e0, type: 3}
+  zombieGetHurtClip:
+  - {fileID: 8300000, guid: 4fc1c4d6818da5a4caffba80bf043bbd, type: 3}
+  - {fileID: 8300000, guid: b1c2c0ebbe053b7478925edc8e8ec400, type: 3}
+  zombieYellClip: {fileID: 8300000, guid: 1f9485badaf2921449189f0d7a08ed20, type: 3}
+  zombieDeadClip: {fileID: 8300000, guid: 328153571931aea4cb11693065f249c5, type: 3}
+  wolfYellClip: {fileID: 8300000, guid: 506eb9d712d3de1478912eac9bdf0a9d, type: 3}
+  wolfAttackClip: {fileID: 8300000, guid: c3e628fe534d93944a55b6339b9e92d2, type: 3}
+  wolfDeadClip: {fileID: 8300000, guid: ca4a4ac9721dcaf4cb80e77a9070dbf3, type: 3}
+  bossYellClip: {fileID: 8300000, guid: b4db711de5c76e04aad76ce6eee9a568, type: 3}
+  bossAttackClip: {fileID: 8300000, guid: c553183d3af0bb64c999c687fe3678f3, type: 3}
+  bossAttackSoundClip: {fileID: 8300000, guid: df8f841a4d60e584db08263f4592461d, type: 3}
+  bossGetHurtClip:
+  - {fileID: 8300000, guid: a9aa3016260e0e14098047c4cf630599, type: 3}
+  - {fileID: 8300000, guid: 901c8b34e3dd0674a98a4026da45a869, type: 3}
+  - {fileID: 8300000, guid: a4bedd28c9cbdfe4e97b786fff69cc4a, type: 3}
+  - {fileID: 8300000, guid: 1602c48d1a1942347ae84b264c351728, type: 3}
+  bossDiedClip: {fileID: 8300000, guid: 8e3fd11f9fd663d45b1f7df2979b8396, type: 3}
+  bossKnockDownClip: {fileID: 8300000, guid: 0812a7c19d8173d4ca807931ff824410, type: 3}
+  bossThrowHelmetClip: {fileID: 8300000, guid: 28364be6c4dede64d9a3d9c555e5f742, type: 3}
+  bossKillPlayerClip: {fileID: 8300000, guid: 218f5340045af324f8eb8a7d65c2b559, type: 3}
+  bossRushAttackYellClip:
+  - {fileID: 8300000, guid: 2c7055709111b3f4d9603245d7015795, type: 3}
+  - {fileID: 8300000, guid: 8b112fd90ef892547bcca4199ab164eb, type: 3}
+  bossJumpAttackClip: {fileID: 8300000, guid: 1358f398b7072104c96c65e80ef89515, type: 3}
+  bossDeadClip:
+  - {fileID: 8300000, guid: b189be14f52ecc54a820a9a026152fed, type: 3}
+  - {fileID: 8300000, guid: 2de11612da9cb8d409549c8afbe86577, type: 3}
+  - {fileID: 8300000, guid: b2d98c4771219c5469779fc5e96b81c2, type: 3}
+  sourse: {fileID: 8310976758369067170}
+  hoverSFX: {fileID: 8300000, guid: cf3ff32cc7a700a4eb67f3283a487aa9, type: 3}
+  clickSFX: {fileID: 8300000, guid: 52dcdb4ff0006ac4ca8518677f74ae75, type: 3}
+--- !u!82 &8310976758369067170
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6193800609053564917}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

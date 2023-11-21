@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: Dogbody1
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: New Category
+    m_Hash: -1887952825
+    m_CategoryList:
+    - m_Name: normal
+      m_Hash: 562391268
+      m_Sprite: {fileID: 3457206106340798434, guid: 76ea41e127ee22a47ad7dc062ba4b41a, type: 3}
+    - m_Name: normal2
+      m_Hash: -1114432252
+      m_Sprite: {fileID: -30102328105693104, guid: 76ea41e127ee22a47ad7dc062ba4b41a, type: 3}
+    - m_Name: anger
+      m_Hash: 1385200519
+      m_Sprite: {fileID: 8702513104446703914, guid: 76ea41e127ee22a47ad7dc062ba4b41a, type: 3}
+    - m_Name: Dizzy
+      m_Hash: -2012216193
+      m_Sprite: {fileID: -1735203319770839436, guid: 76ea41e127ee22a47ad7dc062ba4b41a, type: 3}
+    - m_Name: hurt
+      m_Hash: -947059686
+      m_Sprite: {fileID: -8396110921545565623, guid: 76ea41e127ee22a47ad7dc062ba4b41a, type: 3}
+    - m_Name: died
+      m_Hash: -2142014140
+      m_Sprite: {fileID: -4654084304942431325, guid: 76ea41e127ee22a47ad7dc062ba4b41a, type: 3}
+  - m_Name: New Category 1
+    m_Hash: 30752789
+    m_CategoryList:
+    - m_Name: normal
+      m_Hash: 562391268
+      m_Sprite: {fileID: -6346703571980116766, guid: 76ea41e127ee22a47ad7dc062ba4b41a, type: 3}
+    - m_Name: normal2
+      m_Hash: -1114432252
+      m_Sprite: {fileID: 0}
+    - m_Name: anger
+      m_Hash: 1385200519
+      m_Sprite: {fileID: 0}
+    - m_Name: Dizzy
+      m_Hash: -2012216193
+      m_Sprite: {fileID: 0}
+    - m_Name: hurt
+      m_Hash: -947059686
+      m_Sprite: {fileID: 0}
+    - m_Name: died
+      m_Hash: -2142014140
+      m_Sprite: {fileID: 0}

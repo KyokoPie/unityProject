@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: Dogbody2
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: hair
+    m_Hash: -1661509351
+    m_CategoryList:
+    - m_Name: normal
+      m_Hash: 562391268
+      m_Sprite: {fileID: 4783635247763835160, guid: 19cee4f6473c89a4698b192cde8ecb7a, type: 3}
+    - m_Name: normal2
+      m_Hash: -1114432252
+      m_Sprite: {fileID: -4273459625368646099, guid: 19cee4f6473c89a4698b192cde8ecb7a, type: 3}
+    - m_Name: anger
+      m_Hash: 1385200519
+      m_Sprite: {fileID: 2589957867357955081, guid: 19cee4f6473c89a4698b192cde8ecb7a, type: 3}
+    - m_Name: Dizzy
+      m_Hash: -2012216193
+      m_Sprite: {fileID: -5056145935053736988, guid: 19cee4f6473c89a4698b192cde8ecb7a, type: 3}
+    - m_Name: hurt
+      m_Hash: -947059686
+      m_Sprite: {fileID: 3315108161163129327, guid: 19cee4f6473c89a4698b192cde8ecb7a, type: 3}
+    - m_Name: died
+      m_Hash: -2142014140
+      m_Sprite: {fileID: -7440244251892146833, guid: 19cee4f6473c89a4698b192cde8ecb7a, type: 3}
+  - m_Name: hand
+    m_Hash: 660750991
+    m_CategoryList:
+    - m_Name: normal
+      m_Hash: 562391268
+      m_Sprite: {fileID: 8457924650463750877, guid: 19cee4f6473c89a4698b192cde8ecb7a, type: 3}
+    - m_Name: died
+      m_Hash: -2142014140
+      m_Sprite: {fileID: 7819709275759174487, guid: 19cee4f6473c89a4698b192cde8ecb7a, type: 3}
+  - m_Name: scarf
+    m_Hash: -1592898591
+    m_CategoryList:
+    - m_Name: normal
+      m_Hash: 562391268
+      m_Sprite: {fileID: -6318091925235064499, guid: 19cee4f6473c89a4698b192cde8ecb7a, type: 3}
+    - m_Name: normal2
+      m_Hash: -1114432252
+      m_Sprite: {fileID: 0}
+    - m_Name: anger
+      m_Hash: 1385200519
+      m_Sprite: {fileID: 0}
+    - m_Name: Dizzy
+      m_Hash: -2012216193
+      m_Sprite: {fileID: 0}
+    - m_Name: hurt
+      m_Hash: -947059686
+      m_Sprite: {fileID: 0}
+    - m_Name: died
+      m_Hash: -2142014140
+      m_Sprite: {fileID: 0}
